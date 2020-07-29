@@ -499,7 +499,7 @@ class _solverState extends State<solver> {
         setState(() {
           cc = c;
           cr = r;
-          //lst[r][c] = nownum;
+          nownum = lst[r][c];
         });
       }, // handle your onTap here
       child: Container(
