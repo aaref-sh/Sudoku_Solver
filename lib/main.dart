@@ -17,6 +17,8 @@ class MyApp extends StatelessWidget {
 }
 
 int mn = 0;
+int cr = -1;
+int cc = -1;
 
 class MyHomePage extends StatefulWidget {
   MyHomePage({Key key, this.title}) : super(key: key);
@@ -73,93 +75,93 @@ class _solverState extends State<solver> {
                       Row(
                         children: <Widget>[
                           Expanded(
-                            child: button('00'),
+                            child: grid_cell('00'),
                           ),
                           Expanded(
-                            child: button('01'),
+                            child: grid_cell('01'),
                           ),
                           Expanded(
-                            child: button('02'),
+                            child: grid_cell('02'),
                           ),
                           Expanded(
-                            child: button('03'),
+                            child: grid_cell('03'),
                           ),
                           Expanded(
-                            child: button('04'),
+                            child: grid_cell('04'),
                           ),
                           Expanded(
-                            child: button('05'),
+                            child: grid_cell('05'),
                           ),
                           Expanded(
-                            child: button('06'),
+                            child: grid_cell('06'),
                           ),
                           Expanded(
-                            child: button('07'),
+                            child: grid_cell('07'),
                           ),
                           Expanded(
-                            child: button('08'),
-                          ),
-                        ],
-                      ),
-                      Row(
-                        children: <Widget>[
-                          Expanded(
-                            child: button('10'),
-                          ),
-                          Expanded(
-                            child: button('11'),
-                          ),
-                          Expanded(
-                            child: button('12'),
-                          ),
-                          Expanded(
-                            child: button('13'),
-                          ),
-                          Expanded(
-                            child: button('14'),
-                          ),
-                          Expanded(
-                            child: button('15'),
-                          ),
-                          Expanded(
-                            child: button('16'),
-                          ),
-                          Expanded(
-                            child: button('17'),
-                          ),
-                          Expanded(
-                            child: button('18'),
+                            child: grid_cell('08'),
                           ),
                         ],
                       ),
                       Row(
                         children: <Widget>[
                           Expanded(
-                            child: button('20'),
+                            child: grid_cell('10'),
                           ),
                           Expanded(
-                            child: button('21'),
+                            child: grid_cell('11'),
                           ),
                           Expanded(
-                            child: button('22'),
+                            child: grid_cell('12'),
                           ),
                           Expanded(
-                            child: button('23'),
+                            child: grid_cell('13'),
                           ),
                           Expanded(
-                            child: button('24'),
+                            child: grid_cell('14'),
                           ),
                           Expanded(
-                            child: button('25'),
+                            child: grid_cell('15'),
                           ),
                           Expanded(
-                            child: button('26'),
+                            child: grid_cell('16'),
                           ),
                           Expanded(
-                            child: button('27'),
+                            child: grid_cell('17'),
                           ),
                           Expanded(
-                            child: button('28'),
+                            child: grid_cell('18'),
+                          ),
+                        ],
+                      ),
+                      Row(
+                        children: <Widget>[
+                          Expanded(
+                            child: grid_cell('20'),
+                          ),
+                          Expanded(
+                            child: grid_cell('21'),
+                          ),
+                          Expanded(
+                            child: grid_cell('22'),
+                          ),
+                          Expanded(
+                            child: grid_cell('23'),
+                          ),
+                          Expanded(
+                            child: grid_cell('24'),
+                          ),
+                          Expanded(
+                            child: grid_cell('25'),
+                          ),
+                          Expanded(
+                            child: grid_cell('26'),
+                          ),
+                          Expanded(
+                            child: grid_cell('27'),
+                          ),
+                          Expanded(
+                            child: grid_cell('28'),
                           ),
                         ],
                       ),
@@ -176,93 +178,93 @@ class _solverState extends State<solver> {
                     Row(
                       children: <Widget>[
                         Expanded(
-                          child: button('30'),
+                          child: grid_cell('30'),
                         ),
                         Expanded(
-                          child: button('31'),
+                          child: grid_cell('31'),
                         ),
                         Expanded(
-                          child: button('32'),
+                          child: grid_cell('32'),
                         ),
                         Expanded(
-                          child: button('33'),
+                          child: grid_cell('33'),
                         ),
                         Expanded(
-                          child: button('34'),
+                          child: grid_cell('34'),
                         ),
                         Expanded(
-                          child: button('35'),
+                          child: grid_cell('35'),
                         ),
                         Expanded(
-                          child: button('36'),
+                          child: grid_cell('36'),
                         ),
                         Expanded(
-                          child: button('37'),
+                          child: grid_cell('37'),
                         ),
                         Expanded(
-                          child: button('38'),
-                        ),
-                      ],
-                    ),
-                    Row(
-                      children: <Widget>[
-                        Expanded(
-                          child: button('40'),
-                        ),
-                        Expanded(
-                          child: button('41'),
-                        ),
-                        Expanded(
-                          child: button('42'),
-                        ),
-                        Expanded(
-                          child: button('43'),
-                        ),
-                        Expanded(
-                          child: button('44'),
-                        ),
-                        Expanded(
-                          child: button('45'),
-                        ),
-                        Expanded(
-                          child: button('46'),
-                        ),
-                        Expanded(
-                          child: button('47'),
-                        ),
-                        Expanded(
-                          child: button('48'),
+                          child: grid_cell('38'),
                         ),
                       ],
                     ),
                     Row(
                       children: <Widget>[
                         Expanded(
-                          child: button('50'),
+                          child: grid_cell('40'),
                         ),
                         Expanded(
-                          child: button('51'),
+                          child: grid_cell('41'),
                         ),
                         Expanded(
-                          child: button('52'),
+                          child: grid_cell('42'),
                         ),
                         Expanded(
-                          child: button('53'),
+                          child: grid_cell('43'),
                         ),
                         Expanded(
-                          child: button('54'),
+                          child: grid_cell('44'),
                         ),
                         Expanded(
-                          child: button('55'),
+                          child: grid_cell('45'),
                         ),
                         Expanded(
-                          child: button('56'),
+                          child: grid_cell('46'),
                         ),
                         Expanded(
-                          child: button('57'),
+                          child: grid_cell('47'),
                         ),
                         Expanded(
-                          child: button('58'),
+                          child: grid_cell('48'),
+                        ),
+                      ],
+                    ),
+                    Row(
+                      children: <Widget>[
+                        Expanded(
+                          child: grid_cell('50'),
+                        ),
+                        Expanded(
+                          child: grid_cell('51'),
+                        ),
+                        Expanded(
+                          child: grid_cell('52'),
+                        ),
+                        Expanded(
+                          child: grid_cell('53'),
+                        ),
+                        Expanded(
+                          child: grid_cell('54'),
+                        ),
+                        Expanded(
+                          child: grid_cell('55'),
+                        ),
+                        Expanded(
+                          child: grid_cell('56'),
+                        ),
+                        Expanded(
+                          child: grid_cell('57'),
+                        ),
+                        Expanded(
+                          child: grid_cell('58'),
                         ),
                       ],
                     ),
@@ -277,93 +279,93 @@ class _solverState extends State<solver> {
                     Row(
                       children: <Widget>[
                         Expanded(
-                          child: button('60'),
+                          child: grid_cell('60'),
                         ),
                         Expanded(
-                          child: button('61'),
+                          child: grid_cell('61'),
                         ),
                         Expanded(
-                          child: button('62'),
+                          child: grid_cell('62'),
                         ),
                         Expanded(
-                          child: button('63'),
+                          child: grid_cell('63'),
                         ),
                         Expanded(
-                          child: button('64'),
+                          child: grid_cell('64'),
                         ),
                         Expanded(
-                          child: button('65'),
+                          child: grid_cell('65'),
                         ),
                         Expanded(
-                          child: button('66'),
+                          child: grid_cell('66'),
                         ),
                         Expanded(
-                          child: button('67'),
+                          child: grid_cell('67'),
                         ),
                         Expanded(
-                          child: button('68'),
-                        ),
-                      ],
-                    ),
-                    Row(
-                      children: <Widget>[
-                        Expanded(
-                          child: button('70'),
-                        ),
-                        Expanded(
-                          child: button('71'),
-                        ),
-                        Expanded(
-                          child: button('72'),
-                        ),
-                        Expanded(
-                          child: button('73'),
-                        ),
-                        Expanded(
-                          child: button('74'),
-                        ),
-                        Expanded(
-                          child: button('75'),
-                        ),
-                        Expanded(
-                          child: button('76'),
-                        ),
-                        Expanded(
-                          child: button('77'),
-                        ),
-                        Expanded(
-                          child: button('78'),
+                          child: grid_cell('68'),
                         ),
                       ],
                     ),
                     Row(
                       children: <Widget>[
                         Expanded(
-                          child: button('80'),
+                          child: grid_cell('70'),
                         ),
                         Expanded(
-                          child: button('81'),
+                          child: grid_cell('71'),
                         ),
                         Expanded(
-                          child: button('82'),
+                          child: grid_cell('72'),
                         ),
                         Expanded(
-                          child: button('83'),
+                          child: grid_cell('73'),
                         ),
                         Expanded(
-                          child: button('84'),
+                          child: grid_cell('74'),
                         ),
                         Expanded(
-                          child: button('85'),
+                          child: grid_cell('75'),
                         ),
                         Expanded(
-                          child: button('86'),
+                          child: grid_cell('76'),
                         ),
                         Expanded(
-                          child: button('87'),
+                          child: grid_cell('77'),
                         ),
                         Expanded(
-                          child: button('88'),
+                          child: grid_cell('78'),
+                        ),
+                      ],
+                    ),
+                    Row(
+                      children: <Widget>[
+                        Expanded(
+                          child: grid_cell('80'),
+                        ),
+                        Expanded(
+                          child: grid_cell('81'),
+                        ),
+                        Expanded(
+                          child: grid_cell('82'),
+                        ),
+                        Expanded(
+                          child: grid_cell('83'),
+                        ),
+                        Expanded(
+                          child: grid_cell('84'),
+                        ),
+                        Expanded(
+                          child: grid_cell('85'),
+                        ),
+                        Expanded(
+                          child: grid_cell('86'),
+                        ),
+                        Expanded(
+                          child: grid_cell('87'),
+                        ),
+                        Expanded(
+                          child: grid_cell('88'),
                         ),
                       ],
                     ),
@@ -476,13 +478,13 @@ class _solverState extends State<solver> {
                         ),
                       ],
                     )),
-              ) // solve and clean button
+              ) // solve and cleangrid_cell
             ],
           ),
         ));
   }
 
-  Widget button(String s) {
+  Widget grid_cell(String s) {
     int r = int.parse(s[0]);
     int c = int.parse(s[1]);
     double mini1 = MediaQuery.of(context).size.height * 0.1;
@@ -491,15 +493,18 @@ class _solverState extends State<solver> {
     String n = '';
     if (lst[r][c] != 0) n = lst[r][c].toString();
     bool safe = true;
-    if (lst[r][c] != 0 && !good(r, c, lst[r][c])) safe = false;
+    if (lst[r][c] != 0 && !issafe(r, c, lst[r][c])) safe = false;
     return GestureDetector(
       onTap: () {
         setState(() {
-          lst[r][c] = nownum;
+          cc = c;
+          cr = r;
+          //lst[r][c] = nownum;
         });
       }, // handle your onTap here
       child: Container(
         height: mini1,
+        width: mini1,
         child: Center(
             child: Text('$n',
                 style: lst[r][c] == nownum
@@ -512,11 +517,17 @@ class _solverState extends State<solver> {
           border: Border(
               left: c % 3 == 0 && c > 0
                   ? BorderSide(width: 1.0, color: Colors.black)
-                  : BorderSide(width: 1.0, color: Colors.grey),
+                  : c > 0
+                      ? BorderSide(width: 1.0, color: Colors.grey)
+                      : BorderSide.none,
               top: r % 3 == 0
                   ? BorderSide.none
                   : BorderSide(width: 1.0, color: Colors.grey)),
-          color: safe ? Colors.white : Colors.deepOrange[200],
+          color: !safe
+              ? Colors.deepOrange[200]
+              : (insquare(r, c) || r == cr || c == cc) && (c != cc || r != cr)
+                  ? Colors.grey[300]
+                  : Colors.white,
         ),
       ),
     );
@@ -532,9 +543,11 @@ class _solverState extends State<solver> {
         height: mini1,
         child: OutlineButton(
             onPressed: () {
-              setState(() {
-                nownum = x;
-              });
+              if (cc >= 0)
+                setState(() {
+                  lst[cr][cc] = x;
+                  nownum = x;
+                });
             },
             child: x == 0
                 ? Icon(
@@ -564,7 +577,7 @@ void clear() {
   for (int i = 0; i < 9; i++) for (int j = 0; j < 9; j++) lst[i][j] = 0;
 }
 
-bool good(int r, int c, int v) {
+bool issafe(int r, int c, int v) {
   for (int i = 0; i < 9; i++) if (lst[r][i] == v && i != c) return false;
   for (int i = 0; i < 9; i++) if (lst[i][c] == v && i != r) return false;
 
@@ -625,16 +638,27 @@ void m(BuildContext context) {
   cn = 0;
   if (solveSudoku()) {
     print(cn.toString());
-    return;
+    bool allright = true;
+    for (int i = 0; i < 9; i++)
+      for (int j = 0; j < 9; j++)
+        if (!issafe(i, j, lst[i][j])) allright = false;
+    if (allright) return;
   }
   _showMyDialog(context);
   clear();
 }
 
+bool insquare(int r, int c) {
+  int br = cr - cr % 3;
+  int bc = cc - cc % 3;
+  if (r >= br && r < br + 3) if (c >= bc && c < bc + 3) return true;
+  return false;
+}
+
 Future<void> _showMyDialog(BuildContext context) async {
   return showDialog<void>(
     context: context,
-    barrierDismissible: true, // user must tap button!
+    barrierDismissible: true, // user must tapgrid_cell!
     builder: (BuildContext context) {
       return AlertDialog(
         title: Text("It's Impossible to solve! :( "),
