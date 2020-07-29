@@ -1,4 +1,4 @@
-# suhoku_solver
+# sudoku solver
 
 fuckin sudoku solver
 <hr style="color:blue">
